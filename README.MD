@@ -1,13 +1,10 @@
-#### Be The Hero
+## Be The Hero
 
 ### Valeu Rocketseat!  
 
 ### Desenvolvimento
 
 - Backend - em NodeJs.
-- Frontend - em ReactJs.
-- Mobile - em React-Native.
-- WebSocket - para realizar "match" entre usuários.
 
 ## Networking
 
