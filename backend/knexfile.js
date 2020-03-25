@@ -5,9 +5,9 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      host : '35.227.141.247',
+      host : '',
       user : 'postgres',
-      password : 'm151900*0000',
+      password : '',
       database : 'be_the_hero'
     },
     migrations: {
