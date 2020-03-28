@@ -13,7 +13,7 @@ module.exports = {
 
     const id = crypto.randomBytes(4).toString('HEX');
 
-    await RTCPeerConnection('ongs').insert({
+    await connection('ongs').insert({
       id,
       name, 
       email, 
