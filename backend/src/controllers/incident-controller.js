@@ -18,11 +18,9 @@ module.exports = {
       );
     
 
-    const [count] = await connection('incidents')
-    .count();
+    const [result] = await connection('incidents').count();
 
-    res.header('X-Total-Count',
-    count['count(*)']);
+    res.header('X-Total-Count', result.count);
 
     return res.json(incidents);
   },
